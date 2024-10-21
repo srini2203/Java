@@ -1,0 +1,43 @@
+import java.awt.*;
+import javax.awt.*;
+import java.EventActionListener;
+import java.ActionEvent;
+class Guest implements ActionListener{
+
+string name;
+string address;
+int number_of_occupants;
+string type_of_room;
+Guest()
+this.name=name;
+this.address=address;
+this.number_of_occupants=number_of_occupants;
+this.type_of_room=type_of_room;
+
+JFrame f= new JFrame;
+JLabel;
+JTextField name,address,number_of_occupants;
+JComboBox  type_of_room;
+
+
+JLabel l=new Label("Welcome to Hotel Room Management");
+f.add(l);
+l.setLayout(new TopLayout);
+
+f.addLabel l2("Enter Name");
+JTextField namefield=new JTextField;
+f.namefield;
+
+f.addLabel l3("Enter address");
+JTextField addressfield=new JTextField;
+f.addressfield;
+
+f.addLabel l4("number of occupants");
+JTextField occupantsfield=new JTextField;
+f.occupantsfield;
+
+f.addLabel l5("Type of room");
+JComboBox cmb= new JComboBox()
+
+
+
